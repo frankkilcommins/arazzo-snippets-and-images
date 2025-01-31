@@ -1,0 +1,6 @@
+successCriteria:
+    # assertions to determine step was successful
+  - condition: $statusCode == 200
+  - condition: $[?length(@.pets) > 0]
+    context: $response.body
+    type: jsonpath

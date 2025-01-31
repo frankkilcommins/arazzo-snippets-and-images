@@ -1,0 +1,11 @@
+workflows:
+ - workflowId: findAndAdoptPet
+   summary: This workflow lays out the steps and API calls to search for and adopt a pet.
+   description: This workflow lays out the steps needed to adopt a pet
+   inputs: {}
+   parameters: []
+   successActions: []
+   failureActions: []
+   steps: []
+   dependsOn: []
+   outputs: []

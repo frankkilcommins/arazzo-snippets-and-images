@@ -1,0 +1,4 @@
+outputs:
+  petId: $steps.searchPets.outputs.petId
+  petName: $steps.searchPets.outputs.petName
+  status: $steps.approveAdoption.outputs.status

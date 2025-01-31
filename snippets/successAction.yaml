@@ -1,0 +1,8 @@
+name: joinWaitingList
+type: goto
+stepId: joinWaitingListStep
+criteria:
+    # assertions to determine if this success action should be executed
+    - context: $response.body
+      condition: $[?count(@.pets) > 0]
+      type: jsonpath

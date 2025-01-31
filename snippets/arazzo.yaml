@@ -1,0 +1,14 @@
+arazzo: 1.0.1
+info: 
+  title: An example Arazzo document
+  summary: This document shows the minimum required fields for an Arazzo document.
+  version: 0.0.1
+sourceDescriptions: 
+  - name: exampleAPI
+    url: https://example.com/apis/someapi.openapi.json
+    type: openapi
+workflows:
+  - workflowId: someWorkflowIdentifier
+    steps:
+      - stepId: someStepIdentifier
+        operationId: $sourceDescriptions.exampleAPI.someOperation

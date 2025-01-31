@@ -1,0 +1,5 @@
+info:
+    title: A pet adoption workflow
+    summary: Search for an adopt a pet from the PetCo shelter or affiliated pet adoption centers.
+    description: This workflow walks you through the steps of `searching` for, `selecting`, and `adopting` an available pet.
+    version: 1.1.0

@@ -1,0 +1,7 @@
+sourceDescriptions:
+  - name: petsAPI
+    url: https://api.swaggerhub.com/apis/frank-kilcommins/Pets/1.0.0/swagger.json
+    type: openapi
+  - name: adoptionsAPI
+    url: https://api.swaggerhub.com/apis/frank-kilcommins/Adoptions/1.0.0/swagger.json
+    type: openapi

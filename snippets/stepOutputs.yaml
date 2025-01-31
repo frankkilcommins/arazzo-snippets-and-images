@@ -1,0 +1,2 @@
+outputs:
+  petId: $response.body#/pets/0/id

@@ -1,0 +1,10 @@
+steps:
+- stepId: searchPets
+  description: This step demonstrates how to search for pets matching provide criteria
+  operationId: $sourceDescriptions.petsAPI.getPets
+  parameters: []
+  successCriteria: []
+  requestBody: {}
+  onSuccess: []
+  onFailure: []
+  outputs: []

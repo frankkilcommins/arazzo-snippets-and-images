@@ -1,0 +1,15 @@
+inputs:
+  type: object
+  properties:
+    category:
+      type: string
+    breed:
+      type: string
+    location:
+      type: string
+    apiKey:
+      type: string
+  required:
+    - category
+    - breed
+    - apiKey

@@ -1,0 +1,13 @@
+parameters:
+  - name: category
+    in: query
+    value: $inputs.category
+  - name: breed
+    in: query
+    value: $inputs.breed
+  - name: location
+    in: query
+    value: $inputs.location
+  - name: status
+    in: query
+    value: available

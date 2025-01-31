@@ -1,0 +1,7 @@
+name: retryStep
+type: retry
+retryAfter: 1
+retryLimit: 5
+criteria:
+    # assertions to determine if this action should be executed
+    - condition: $statusCode == 503
