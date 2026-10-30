@@ -3,7 +3,11 @@ steps:
   description: This step demonstrates how to search for pets matching provide criteria
   operationId: $sourceDescriptions.petsAPI.getPets
   parameters: []
-  successCriteria: []
+  successCriteria:
+    - condition: $statusCode == 200
+    - context: $response.body
+      condition: $[?count(@.*.petId) > 0]
+      type: jsonpath
   requestBody: {}
   onSuccess: []
   onFailure: []
